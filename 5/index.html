@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Мило Мыло</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/style/main.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="wrapper">
+            <header class="wrapper__header header">
+                <div class="header__logo-title">
+                    <h1>
+                        <span class="header__up-title">Нам</span>
+                        <span class="header__bottom-title">МилоМыло</span>
+                    </h1>
+                </div>
+            </header>
+            <div class="wrapper__navbar navbar">
+                <nav class="navbar__nav">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                </nav>
+                <input class="navbar__search" type="search" placeholder="Поиск" maxlength="25" onfocus="alert('AJAX и PHP не будет! :)'); this.onfocus = null;">
+            </div>
+            <div class="wrapper__slider slider">
+                <div class="slider__images">
+                    <img src="./assets/images/slider/img1.png" alt="Слайд">
+                </div>
+                <div class="slider__pagination pagination">
+                    <div class="pagination__circle"></div>
+                    <div class="pagination__circle pagination__circle--active"></div>
+                    <div class="pagination__circle"></div>
+                    <div class="pagination__circle"></div>
+                    <div class="pagination__circle"></div>
+                </div>
+            </div>
+            <main class="wrapper__main main">
+                <section class="main__about-us">
+                    <div class="main__title">
+                        <h2>О компании</h2>
+                    </div>
+                    <p>
+                        <img src="./assets/images/about-us/cocktail.png" alt="Коктейль">
+                        Наша компания (интернет магазин натуральной,
+                        декоративной косметики) является официальным дистрибьютором
+                        натуральной и декоративной косметики из Новой Зеландии
+                        «Living Nature» по Санкт-Петербургу. Living Naturе признана лучшей
+                        органической косметикой 2008 года. Натуральная косметика
+                        Living Naturе — это подарок природы! Она производится в Новой
+                        Зеландии — самом экологически чистом районе Земли. Вся продукция содержит уникальную систему природных консервантов, основанную на сочетании
+                        растения МАНУКА, экстракта дерева тотара и витамина Е. В косметике Living Naturе отсутствует
+                        этиловый спирт, продукты переработки нефти, химикаты, лаурил сульфат натрия — способные нарушить
+                        функции эндокринной системы организма. Мы так же рады представить натуральную и декоративную
+                        косметику и натуральные крема из Германии Dr.Hauschka. Также, всегда в наличии другие экотовары. «В
+                        начале было растение, собиравшее свет и земные силы, питавшее и исцеляющее нас». Этот принцип
+                        используется при производстве косметики Dr.Hauschka. Все растения выращиваются в собственных
+                        садах с использованием биолого-динамического метода ведения садового хозяйства. Данный метод
+                        ведения хозяйства позволяет выращивать здоровые и крепкие растения на чистых почвах, исключая
+                        применение гербицидов и минеральных удобрений. Компания WALA — производитель косметики
+                        Dr.Hauschka — получила сертификат эко- аудита и награждена премией земли Баден-Вюртемберг по
+                        охране окружающей среды. Вся представленная в нашем интернет магазине натуральной косметики
+                        продукция — это не только 100% натуральная косметика. Это Красота, Здоровье, Экология, Гармония,
+                        Будущее...<span class=""></span>
+                    </p>
+                </section>
+                <section class="main__catalog">
+                    <div class="main__title">
+                        <h2>Каталог</h2>
+                    </div>
+                    <div class="main__products">
+
+                        <div class="main__product product">
+                            <img src="./assets/images/catalog/product1.png" alt="Товар" class="product__image">
+                            <div class="product__info">
+                                <div class="product__title"><a href="#">Мягкий шампунь для волос Pour Karite 200 г.</a></div>
+                                <div class="product__price">450 руб.</div>
+                            </div>
+                        </div>
+                        <div class="main__product product">
+                            <img src="./assets/images/catalog/product2.png" alt="Товар" class="product__image">
+                            <div class="product__info">
+                                <div class="product__title"><a href="#">Мягкий шампунь для волос Pour Karite 200 г.</a></div>
+                                <div class="product__price">330 руб.</div>
+                            </div>
+                        </div>
+                        <div class="main__product product">
+                            <img src="./assets/images/catalog/product3.png" alt="Товар" class="product__image">
+                            <div class="product__info">
+                                <div class="product__title"><a href="#">Мягкий шампунь для волос Pour Karite 200 г.</a></div>
+                                <div class="product__price">650 руб.</div>
+                            </div>
+                        </div>
+                        <div class="main__product product">
+                            <img src="./assets/images/catalog/product4.png" alt="Товар" class="product__image">
+                            <div class="product__info">
+                                <div class="product__title"><a href="#">Мягкий шампунь для волос Pour Karite 200 г.</a></div>
+                                <div class="product__price">450 руб.</div>
+                            </div>
+                        </div>
+                        <button class="main__next" onclick="alert(`AJAX не будет! :)`);">Далее</button>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="wrapper__footer footer">
+            <div class="footer__number">
+                <div class="footer__word">Наш телефон: </div>
+                <div class="footer__tel">89163161790</div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        let cicrles = document.querySelectorAll('.pagination__circle'),
+            prices = document.querySelectorAll('.product__price');
+        cicrles.forEach(el => el.onclick = () => {
+            alert(`Серьезно?\nДелать мне нечего, делать слайдер.\nВсе равно я ничего не получу!`)
+        });
+        prices.forEach(el => el.onclick = () => {
+            alert(`Я слишком поздно понял, что это ссылки/кнопки.\nПереписывать было уже лень.\nПростите :с`)
+        });
+    </script>
+</body>
+
+</html>
